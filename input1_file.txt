@@ -1,0 +1,22 @@
+cnf(condensed_detachment,axiom,( ~ is_a_theorem(implies(A,B))| ~ is_a_theorem(A)| is_a_theorem(B) ) ).
+
+
+implies(implies(implies(A,V),implies(B,C)),G).
+
+implies(implies(B,C),implies(A,C)).
+
+implies(A, B)
+implies(implies(A, B), C)
+
+
+
+equivalent(equivalent(A,B),equivalent(C,B)).
+
+
+equivalent(implies(A,C),B)
+
+
+cnf(condensed_detachment,axiom,( ~ is_a_theorem(implies(A,B))| ~ is_a_theorem(A)| is_a_theorem(B) ) ).
+
+
+(equivalent(A,B))

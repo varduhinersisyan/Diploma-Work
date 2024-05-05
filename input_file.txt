@@ -1,0 +1,9 @@
+cnf(condensed_detachment,axiom,( ~ is_a_theorem(implies(A,B))| ~ is_a_theorem(A)| is_a_theorem(B))).
+
+
+cnf(condensed_detachment,axiom,( ~ is_a_theorem(equivalent(A,B))| ~ is_a_theorem(A)| is_a_theorem(B) ) ).
+
+
+cnf(condensed_detachment,axiom,( ~ is_a_theorem(equivalent(A,B))| ~ is_a_theorem(A) | is_a_theorem(B) ) ).
+
+
